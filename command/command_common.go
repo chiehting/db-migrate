@@ -3,7 +3,7 @@ package command
 import (
 	"fmt"
 
-	migrate "github.com/heartz2o2o/db-migrate/migrate"
+	migrate "github.com/chiehting/db-migrate/migrate"
 )
 
 var SetEnv *Environment

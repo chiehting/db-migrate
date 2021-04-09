@@ -20,7 +20,7 @@ Fork from [sql-migrate](https://github.com/rubenv/sql-migrate)
 ```golane
 
 import (
-	command "github.com/heartz2o2o/db-migrate/command"
+	command "github.com/chiehting/db-migrate/command"
 )
 
 func main() {

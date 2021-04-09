@@ -1,4 +1,4 @@
-module github.com/heartz2o2o/db-migrate
+module github.com/chiehting/db-migrate
 
 go 1.14
 

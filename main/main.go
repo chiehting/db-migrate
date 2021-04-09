@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	command "github.com/heartz2o2o/db-migrate/command"
-	migrate "github.com/heartz2o2o/db-migrate/migrate"
+	command "github.com/chiehting/db-migrate/command"
+	migrate "github.com/chiehting/db-migrate/migrate"
 	"github.com/mitchellh/cli"
 )
 
