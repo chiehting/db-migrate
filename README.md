@@ -21,6 +21,7 @@ Fork from [sql-migrate](https://github.com/rubenv/sql-migrate)
 
 import (
 	command "github.com/chiehting/db-migrate/command"
+	migrate "github.com/chiehting/db-migrate/migrate"
 )
 
 func main() {
