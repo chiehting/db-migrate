@@ -21,7 +21,6 @@ Fork from [sql-migrate](https://github.com/rubenv/sql-migrate)
 
 import (
 	command "github.com/chiehting/db-migrate/command"
-	migrate "github.com/chiehting/db-migrate/migrate"
 )
 
 func main() {
@@ -30,7 +29,7 @@ func main() {
 		DataSource: "root:123456@tcp(localhost:3306)/bac?parseTime=true",
 		Dir:        "./sql"}
 	command.SetEnvironment(env)
-	migrate.SetIgnoreUnknown(true)
+	command.SetIgnoreUnknown(true)
 	Upcommand := command.UpCommand{}
 
 	if err := Upcommand.RunProcess([]string{}); err != nil {
